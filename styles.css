@@ -53,7 +53,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #f4f1ed; 
+  background-color: #c6e0c1; 
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -63,22 +63,16 @@ body {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
-    color: #9c9c9d;
+    color: #aab8a7;
     display: block;
     background: none;
     width: 100%;
     text-align: left;
     cursor: pointer;
     outline: none;
-    
-    
 }
-p{
+h3{
   text-align: center;
-}
-/* On mouse-over */
-.sidenav a:hover, .dropdown-btn:hover {
-  color: #f1f1f1;
 }
 
 /* Main content */
@@ -93,40 +87,18 @@ p{
   width: 100px;
   height: 50px;
 }
-/* Add an active class to the active dropdown button */
-.active {
-  background-color: green;
-  color: white;
-}
 
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.dropdown-container {
-  display: none;
-  background-color: #262626;
-  padding-left: 8px;
-}
-
-/* Optional: Style the caret down icon */
-.fa-caret-down {
-  float: right;
-  padding-right: 8px;
-}
-
-/* Some media queries for responsiveness */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 .vegtables, .fruits, .seafood, .dairy{
-    margin-top: 30px;
     margin-left: 180px; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
+    width: 80%;
 }
+
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 25px;
-  border: 2px solid #73AD21;
+  border: 2px solid #8ed349;
   height: 240px;
   width: 200px;
   text-align: center;
@@ -181,7 +153,7 @@ button{
   height: 70px;
   margin: auto;
   margin-bottom: 20px;
-  position: relative;
+  display: in;
 
 }
 .checkout p{
@@ -193,10 +165,8 @@ button{
   display: inline-block;
   width: 50px;
   height: 50px;
-  mix-blend-mode: darken;
-
 }
-.sub_total{
+.topnav .sub_total{
   float: left;
   margin-left: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -208,9 +178,9 @@ button{
   mix-blend-mode: darken;
 }
 
-.vegtables_banner, .fruits_banner, .seafood_banner{
-  width: 626px;
-  height: 219px;
+.vegtables_banner, .fruits_banner, .seafood_banner, .dairy_banner{
+  width: 600px;
+  height: 170px;
   mix-blend-mode: darken;
   display: block;
   margin-left: auto;
@@ -224,4 +194,9 @@ button{
   margin-right: 50px;
   width: 200px;
   height: 40px;
+}
+
+hr{
+  margin-top: 15px;
+  border-top: 2px dashed green;
 }
