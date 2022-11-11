@@ -1,0 +1,227 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f4f1ed;
+}
+.fruits button {
+  background-color: #af4c4c;
+  border: 2px solid #ad2121;
+
+}
+.fruits .card{
+  border: 2px solid #ad2121;
+}
+.seafood button{
+  background-color: #265dcd;
+  border: 2px solid #170de2;
+}
+.seafood .card{
+  border: 2px solid #170de2;
+}
+.dairy .card{
+  border: 2px solid #0dade2; 
+}
+.dairy button{
+  background-color: #0dade2;
+  border: 2px solid #086f91;
+}
+.vegtables div{
+  background-color:#e9f4e9
+}
+.fruits div{
+  background-color:#f5e1e1
+}
+.seafood div{
+  background-color: #e1e7f5;
+}
+.dairy div{
+  background-color: #e1f1f5;
+}
+.items{
+  margin-left: 140px;
+}
+.items img{
+  max-width: 150px;
+  height: 50px;
+  mix-blend-mode: darken;
+  display: inline;
+}
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f4f1ed; 
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #9c9c9d;
+    display: block;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    
+    
+}
+p{
+  text-align: center;
+}
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px;
+  margin-left: 140px;
+  width:fit-content;
+}
+.topnav{
+  margin-left: 150px;
+  text-align: left;
+  width: 100px;
+  height: 50px;
+}
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.vegtables, .fruits, .seafood, .dairy{
+    margin-top: 30px;
+    margin-left: 180px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  height: 240px;
+  width: 200px;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  margin: 20px;
+  background-color: #dce4e6;
+}
+.card img {
+  max-width: 200px;
+  height: 100px;
+  mix-blend-mode: darken;
+}
+.num{
+  float: left;
+  margin-left: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+
+button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: inline;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+}
+.cart_container{
+  text-align: center;
+}
+.checkout{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  width: 300px;
+  height: 70px;
+  margin: auto;
+  margin-bottom: 20px;
+  position: relative;
+
+}
+.checkout p{
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+.checkout img{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  mix-blend-mode: darken;
+
+}
+.sub_total{
+  float: left;
+  margin-left: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid #ad6521;
+}
+.topnav img{
+  max-width: 200px;
+  height: 100px;
+  mix-blend-mode: darken;
+}
+
+.vegtables_banner, .fruits_banner, .seafood_banner{
+  width: 626px;
+  height: 219px;
+  mix-blend-mode: darken;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+
+}
+.checkoutbtn{
+  float: right;
+  margin-right: 50px;
+  width: 200px;
+  height: 40px;
+}
